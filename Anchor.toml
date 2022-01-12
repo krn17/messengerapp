@@ -1,0 +1,12 @@
+[programs.localnet]
+messengerapp = "DtrBuqtnHbsYwVU4tHaY5XJdFcKUtBwWRHpq2sYXcfFR"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/krn17/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -p ./package.json -t 1000000 tests/**/*.js"
